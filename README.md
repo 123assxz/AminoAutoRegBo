@@ -1,5 +1,5 @@
 # AminoAutoRegBo
-# `AutoReg For Amino + Email Generator`
+# `AutoReg For Amino with email generator & deviceId Generator`
 AminoAutoRegBo, email generator + autoreg script for aminoapps/Генератор почт + авторег для амино
 # Termux
 - apt update
@@ -7,7 +7,6 @@ AminoAutoRegBo, email generator + autoreg script for aminoapps/Генерато�
 - pip install colorama
 - pip install nickname_generator
 - pip install secmail
-- pip install webbrowser
 - pip install beautifulsoup4
 - apt install libxml2
 - apt install libxslt
