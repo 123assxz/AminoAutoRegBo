@@ -24,13 +24,8 @@ GeneratedMail = path.join(THIS_FOLDER, "generatedmails.txt")
 print(Back.BLACK)
 print(Fore.CYAN)
 print(Style.DIM)
-print("""Script by Zevi/Скрипт сделан Zevi
-┌────────────────────────────────────┐
-│Author :  LilZevi&Gefest                 │   
-│Github : https://github.com/LilZevi │
-└────────────────────────────────────┘
-YouTube: https://www.youtube.com/channel/UCJ61JlXJckmO6yJr8BDRuGQ
-Telegram: @NowNameBo
+print("""Script by Lil Zevi & Gefest
+Github : https://github.com/LilZevi
 ▄▀█ █▀▄▀█ █ █▄░█ █▀█ ▄▀█ █░█ ▀█▀ █▀█ █▀█ █▀▀ █▀▀ █▄▄ █▀█
 █▀█ █░▀░█ █ █░▀█ █▄█ █▀█ █▄█ ░█░ █▄█ █▀▄ ██▄ █▄█ █▄█ █▄█
 Version = 4.2
