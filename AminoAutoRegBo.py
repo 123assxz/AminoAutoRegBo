@@ -7,28 +7,28 @@ import time
 import imaplib
 import re
 import base64
+import pyfiglet
 import string 
 import random
 import json
 import secrets
-from colorama import init, Fore, Back, Style
-init()
 from nickname_generator import generate
 from hashlib import sha1
 from bs4 import BeautifulSoup
 from os import path
+from colorama import init, Fore, Back, Style
+init()
 THIS_FOLDER = path.dirname(path.abspath(__file__))
 RegisteredMail = path.join(THIS_FOLDER, "registeredmails.txt")
 RegisteredMailServ = path.join(THIS_FOLDER, "registeredmailswithserv.txt")
 GeneratedMail = path.join(THIS_FOLDER, "generatedmails.txt")
-print(Back.BLACK)
 print(Fore.CYAN)
-print(Style.DIM)
+print(Style.NORMAL)
 print("""Script by Lil Zevi & Gefest
-Github : https://github.com/LilZevi
-▄▀█ █▀▄▀█ █ █▄░█ █▀█ ▄▀█ █░█ ▀█▀ █▀█ █▀█ █▀▀ █▀▀ █▄▄ █▀█
-█▀█ █░▀░█ █ █░▀█ █▄█ █▀█ █▄█ ░█░ █▄█ █▀▄ ██▄ █▄█ █▄█ █▄█
-Version = 4.2
+Github : https://github.com/LilZevi""")
+print(pyfiglet.figlet_format("aminoauto", font="speed"))
+print(pyfiglet.figlet_format("regbo", font="speed"))
+print("""Version = 4.3
 1.Autoreg with your mail server|If u have one|/Авторег для вашего почтового сервера
 2.AutoReg for Amino/Авторег для амино
 3.Generate emails/Сгенерировать почты""")
