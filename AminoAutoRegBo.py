@@ -71,7 +71,7 @@ def autoregforamino():
 		print(f'Password/Пароль: {password}')
 		print(f'DeviceId/Девайсайди: {thedeviceId}')
 		client.request_verify_code(email=email)
-		time.sleep(4)
+		time.sleep(7)
 		verifymsgid = mail.get_messages(email=email).id
 		verifymsgid = verifymsgid[0]
 		themail = mail.read_message(email, verifymsgid).htmlBody
