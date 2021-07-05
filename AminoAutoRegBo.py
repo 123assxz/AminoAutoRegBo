@@ -3,6 +3,8 @@ import secmail
 import concurrent.futures
 import webbrowser
 import time
+import secrets
+import re
 import base64
 import pyfiglet
 import string 
@@ -122,11 +124,12 @@ def autoreg():
 		except amino.lib.util.exceptions.CommandCooldown:
 			print("CommandCooldown")
 			return  
-		except amino.exceptions.VerificationRequired as e:
-			print("VerificationRequired for {email}")
-			url = print(f"Verification Link: {e}")
-			webbrowser.open_new(str(e))
-			TheEnter = input("Press Enter: ")
+		except amino.lib.util.exceptions.VerificationRequired as e:    #здесь запрашивается ручная верефикация
+			print(f"VerificationRequired for {email}")
+			url = re.search("(?P<url>https?://[^\s'\"]+)", str(e)).group("url")
+			print(url)
+			webbrowser.open_new(str(url))
+			input("Press Enter: ")
 		except Exception as e:
 			print(str(e))
 			return  
