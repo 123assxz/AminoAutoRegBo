@@ -11,7 +11,7 @@ AminoAutoRegBo, email generator + autoreg script for aminoapps/Генерато�
 - apt install libxml2
 - apt install libxslt
 - pip install lxml
-- pip install amino.py
+- pip install amino.py==1.2.17
 - pkg install python
 - apt install git
 - git clone https://github.com/LilZevi/AminoAutoRegBo
