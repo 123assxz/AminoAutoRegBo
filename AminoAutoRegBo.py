@@ -1,5 +1,5 @@
 import pyfiglet
-import autoregfunctions
+from autoregconfigs import autoregfunctions
 from colored import fore, back, style, attr
 attr(0)
 print(fore.MEDIUM_PURPLE + style.BOLD)
