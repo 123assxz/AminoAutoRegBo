@@ -1,1 +1,7 @@
-
+colored
+pyfiglet
+nickname_generator
+secmail
+beautifulsoup4
+lxml
+amino.py==1.2.12.1
