@@ -1,6 +1,7 @@
 # AminoAutoRegBo
-# `AutoReg For Amino with email generator & deviceId Generator`
-AminoAutoRegBo, email generator + autoreg script for aminoapps/Генератор почт + авторег для амино
+# `AutoReg For Amino with email generator`
+AminoAutoRegBo, autoreg script for aminoapps
+
 # Termux
 - apt update
 - apt upgrade
